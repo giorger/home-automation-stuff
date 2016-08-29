@@ -1,0 +1,9 @@
+#
+# Instructions
+#
+# Change ATTRS{idVendor} value
+# Change ATTRS{idProduct} value
+# Change RUN value to depict the location of your script
+#
+# Device - Samsung Galaxy S3
+ACTION=="add", SUBSYSTEM=="usb", ATTRS{idVendor}=="04e8", ATTRS{idProduct}=="6123", RUN+="/usr/local/mySyncScript.sh" 
